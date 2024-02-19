@@ -1,0 +1,23 @@
+.font{
+    font-family: 'Chango';
+    font-size: 22px;
+} 
+#body{
+    background-color: rgb(236, 221, 194);
+}
+.colors{
+    background-color: brown;
+}
+@media(max-width:720px){
+    #iconn{
+        display: block;
+
+
+    }
+    .wrap{
+        flex-wrap: wrap;
+    }
+    .hide{
+        display: none;
+    }
+}
